@@ -1,0 +1,6 @@
+name: astrbot_plugin_sleep_mode
+display_name: 休眠模式
+desc: 指定群聊在特定时间段休眠，被@回复自定义文本，其他消息静默拦截。支持WebUI动态配置。
+version: v1.0.0
+author: 次次保底真菌 & 天喵
+repo: ""

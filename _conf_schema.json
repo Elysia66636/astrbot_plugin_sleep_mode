@@ -1,0 +1,22 @@
+{
+  "target_groups": {
+    "type": "list",
+    "default": [],
+    "description": "需要休眠的群号数组，如 [\"123456\",\"789012\"]"
+  },
+  "start_time": {
+    "type": "string",
+    "default": "00:00",
+    "description": "休眠开始时间，格式 HH:MM"
+  },
+  "end_time": {
+    "type": "string",
+    "default": "07:00",
+    "description": "休眠结束时间，格式 HH:MM"
+  },
+  "reply_text": {
+    "type": "string",
+    "default": "s属性大爆发，sleeping！",
+    "description": "休眠期被@时的自定义回复内容"
+  }
+}
